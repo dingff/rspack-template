@@ -8,6 +8,8 @@ const isProduction = process.env.NODE_ENV === 'production'
 const devPublicPath = '/'
 const port = '8888'
 
+console.log('NODE_ENV', process.env.NODE_ENV)
+
 module.exports = {
   entry: {},
   output: {
