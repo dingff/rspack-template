@@ -2,7 +2,6 @@
  * @type {import('@rspack/cli').Configuration}
  */
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MpaRspackPlugin = require('mpa-rspack-plugin')
 
 const isProduction = process.env.NODE_ENV === 'production'
@@ -36,7 +35,7 @@ module.exports = {
       publicPath: devPublicPath,
     },
   },
-  plugins: [new CleanWebpackPlugin(), new MpaRspackPlugin({
+  plugins: [new MpaRspackPlugin({
     html: {
       template: './index.html',
     },
