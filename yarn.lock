@@ -3305,10 +3305,10 @@ minimist@^1.2.0, minimist@^1.2.6:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
   integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
 
-mpa-rspack-plugin@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/mpa-rspack-plugin/-/mpa-rspack-plugin-1.5.0.tgz#14c849f205a2fe62f2a1d9f5fd1b0b0e3ffa2581"
-  integrity sha512-NsDoPYdQ1taqXbgKpq3JxXJH0zMlomp8bFKnU0+pUb3LjsYMKttHUvzLlz5rBkGrVF8HQyLIbCXHZqJeprZMMA==
+mpa-rspack-plugin@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/mpa-rspack-plugin/-/mpa-rspack-plugin-1.5.1.tgz#5254741223886a41a0ab92e4ea42b99d6b314891"
+  integrity sha512-rv95ALFIA/GDpiARb1wAYuDmT6kWv/7efvC4wh1SeHjnwwG11sS2eZOx+Uh+YelOAbZ7jLgA6XY/Wx+12Zu39w==
   dependencies:
     fs-extra "^11.1.0"
     open "8.4.2"
